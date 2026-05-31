@@ -1,0 +1,9 @@
+{
+  "title": "Магазин на Django",
+  "description": "Полноценный интернет-магазин с корзиной, оплатой и личным кабинетом.",
+  "links": [
+    ["Сайт", "https://example.com"],
+    ["GitHub", "https://github.com/username/project"],
+    ["Figma", "https://figma.com/..."]
+  ]
+}

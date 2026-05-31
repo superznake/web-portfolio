@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ткаченко Артём — Портфолио</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">Ткаченко Артём</h1>
+      <nav class="nav">
+        <a href="#about">О себе</a>
+        <a href="#works">Работы</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>О себе</h2>
+      <p>Пишу код. Люблю настольные игры. Мечтаю стать хорошим геймдизайнером. 42.</p>
+    </div>
+  </section>
+
+  <section id="works" class="section">
+    <div class="container">
+      <h2>Мои работы</h2>
+      <div class="projects-grid">
+        {% for project in projects %}
+        <div class="project-card">
+          <img src="{{ project.image }}" alt="" class="project-image">
+          <div class="project-info">
+            <h3>{{ project.title }}</h3>
+            <p class="project-description">{{ project.description }}</p>
+            {% if project.links %}
+            <button class="toggle-btn" onclick="this.nextElementSibling.classList.toggle('active')">
+              Показать ссылки ▼
+            </button>
+            <div class="links-container">
+              {% for link in project.links %}
+              <a href="{{ link[1] }}" target="_blank" class="project-link">
+                {{ link[0] }}
+              </a>
+              {% endfor %}
+            </div>
+            {% endif %}
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section id="contacts" class="section">
+  <div class="container">
+    <h2>Контакты</h2>
+    <div class="contacts-list">
+      <a href="https://vk.com/superznake" target="_blank" class="contact-item">
+        <span class="contact-name">VK</span>
+        <span class="contact-value">superznake</span>
+      </a>
+      <a href="https://github.com/superznake" target="_blank" class="contact-item">
+        <span class="contact-name">GitHub</span>
+        <span class="contact-value">superznake</span>
+      </a>
+      <a href="mailto:superznake@yandex.ru" class="contact-item">
+        <span class="contact-name">Email</span>
+        <span class="contact-value">superznake@yandex.ru</span>
+      </a>
+      <a href="https://t.me/nosferatu_gk" target="_blank" class="contact-item">
+        <span class="contact-name">Telegram</span>
+        <span class="contact-value">@nosferatu_gk</span>
+      </a>
+    </div>
+  </div>
+  </section>
+
+  <script>
+    document.querySelectorAll('.toggle-btn').forEach(btn => {
+      btn.addEventListener('click', function() {
+        if (this.textContent.includes('▼')) {
+          this.textContent = 'Скрыть ▲';
+        } else {
+          this.textContent = 'Показать ссылки ▼';
+        }
+      });
+    });
+  </script>
+</body>
+</html>

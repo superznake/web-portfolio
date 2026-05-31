@@ -1,0 +1,1 @@
+docker run --name web_portfolio -p 127.0.0.1:63000:63007 -v $(pwd):/app web_portfolio:latest

@@ -1,0 +1,7 @@
+#!/bin/bash
+docker rm -f web_portfolio
+git stash
+git pull origin main
+chmod +x upd.sh
+docker build -t web_portfolio:latest .
+docker run --name web_portfolio -p 127.0.0.1:63000:63007 -v $(pwd):/app web_portfolio:latest

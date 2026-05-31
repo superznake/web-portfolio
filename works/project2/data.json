@@ -1,0 +1,9 @@
+{
+  "title": "Магазин на диване",
+  "description": "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ, оплатой и личным кабинетом.",
+  "links": [
+    ["Сайт", "https://example.com"],
+    ["GitHub", "https://github.com/username/project"],
+    ["Figma", "https://figma.com/..."]
+  ]
+}
