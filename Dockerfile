@@ -3,5 +3,5 @@ WORKDIR /app
 COPY req.txt .
 RUN pip install --no-cache-dir -r req.txt
 COPY . .
-EXPOSE 63007
+EXPOSE 62000
 CMD ["python", "main.py"]

@@ -52,7 +52,7 @@ def runserver():
     uvicorn.run(
         app,
         host="127.0.0.1",
-        port=63000,
+        port=62000,
         log_level="info"
     )
 
