@@ -51,7 +51,7 @@ async def home(request: Request):
 def runserver():
     uvicorn.run(
         app,
-        host="127.0.0.1",
+        host="0.0.0.0",
         port=62000,
         log_level="info"
     )
