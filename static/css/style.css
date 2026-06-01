@@ -205,3 +205,7 @@ body {
   color: inherit;
   cursor: pointer;
 }
+
+#note p + p {
+    margin-top: 1.5em;
+}
