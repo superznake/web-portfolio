@@ -200,3 +200,8 @@ body {
         padding: 16px 20px;
     }
 }
+
+.hidden-link {
+  color: inherit;
+  cursor: pointer;
+}
