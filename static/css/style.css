@@ -206,6 +206,12 @@ body {
   cursor: pointer;
 }
 
+.very-hidden-link {
+  color: inherit;
+  text-decoration: none;
+  cursor: default;
+}
+
 #note p + p {
     margin-top: 1.5em;
 }
