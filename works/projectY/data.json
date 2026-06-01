@@ -1,0 +1,11 @@
+{
+  "title": "Практики",
+  "description": "Здесь представлены практики за все годы обучения.",
+  "links": [
+    ["2 семестр", "https://github.com/superznake/practice"],
+    ["3 семестр", "https://github.com/superznake/practice2"],
+    ["6 семестр", "https://github.com/superznake/practice3"],
+    ["7 семестр", "https://github.com/superznake/practice4"],
+    ["8 семестр", "https://github.com/superznake/practice5"]
+  ]
+}

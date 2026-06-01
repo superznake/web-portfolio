@@ -1,10 +1,11 @@
 {
-  "title": "Курсовые работы",
-  "description": "Здесь представлены курсовые работы за все годы обучения.",
+  "title": "Информационные технологии в математике и физике",
+  "description": "Здесь представлены работы по дисциплинам модуля \"Информационные технологии в математике и физике\" за все годы обучения.",
   "links": [
-    ["1 курс", "https://docs.google.com/document/d/1CKU1PDj5aVUFrRYB3QevC0lpSdw5DQFN/edit?usp=sharing&ouid=103389005439189278479&rtpof=true&sd=true"],
-    ["2 курс", "https://docs.google.com/document/d/1paTW_KVfCaDAq9fMR-mMdeyo8ByFQbQNJs_BIPwvl4A/edit?usp=sharing"],
-    ["3 курс", "https://docs.google.com/document/d/1rt-8WiiV4sJC3AzmnrOkM_bo6WWhLo-s/edit?usp=sharing&ouid=103389005439189278479&rtpof=true&sd=true"],
-    ["4 курс", "https://docs.google.com/document/d/1vw41ElnEAwx3WO3MAIIjD1PVGtfRlMQWdjuoYALKW_w/edit?usp=sharing"]
+    ["Информационные технологии в математике", "https://drive.google.com/drive/folders/1G3dEfNRPod7a9o_ATVZmL7wDzHV0s7WI?usp=sharing"],
+    ["Информационные технологии в физике", "https://drive.google.com/drive/folders/1zF4AYKkpRH_m3dgkpqFo-MzlDADHZG9_?usp=sharing"],
+    ["Основы компьютерной алгебры", "https://drive.google.com/drive/folders/1QDJiJrA3rMqdGpzdDDwqQQfDSabvMV8z?usp=sharing"],
+    ["Информационные технологии", "https://drive.google.com/drive/folders/1FnT-k0oeJdzfPQGgu6bq_UXDNZcqdzpE?usp=sharing"],
+    ["Пакеты прикладных программ для статистической обработки и анализа данных", "https://drive.google.com/drive/folders/1ypJ0kCCV8RBpH4F71jaKmkNkSu5JJiKq?usp=drive_link"]
   ]
 }

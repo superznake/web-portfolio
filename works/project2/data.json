@@ -1,9 +1,7 @@
 {
-  "title": "Магазин на диване",
-  "description": "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ, оплатой и личным кабинетом.",
+  "title": "Математика для инженеров",
+  "description": "Здесь представлены работы по дисциплинам модуля \"Математика для инженеров\" за все годы обучения.",
   "links": [
-    ["Сайт", "https://example.com"],
-    ["GitHub", "https://github.com/username/project"],
-    ["Figma", "https://figma.com/..."]
+    ["Линейная алгебра и теория матриц", "https://drive.google.com/drive/folders/1jdpymJl1PHMXNGuc8ysi3UUBITMOXjVy?usp=sharing"]
   ]
 }

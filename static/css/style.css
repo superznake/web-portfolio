@@ -102,6 +102,7 @@ body {
     color: #bbbbbb;
     margin-bottom: 20px;
     font-size: 1rem;
+    white-space: pre-line;
 }
 
 .toggle-btn {
